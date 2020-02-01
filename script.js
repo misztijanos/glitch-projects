@@ -50,3 +50,6 @@ let person1 = new Person("Bobby", "Smith", 32, "female", [
   "weed"
 ]);
 person1.bio();
+Person.prototype.farewell = function() {
+  alert(this.name.first + " has left the building. Bye!");
+};
